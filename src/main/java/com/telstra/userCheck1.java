@@ -53,7 +53,7 @@ public class userCheck1 extends HttpServlet {
             String dbName = "test";
             String driver = "com.mysql.cj.jdbc.Driver";
             String userName = "root";
-            String password = "Rao&1234";
+            String password = "secret";
             try {
                 Class.forName(driver);
                 conn = DriverManager.getConnection(url + dbName, userName, password);
